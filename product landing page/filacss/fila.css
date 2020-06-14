@@ -1,0 +1,270 @@
+#header{
+  text-align: center;
+  background-color:rgb(135,206,235) ;
+}
+
+#nav-bar{
+  position: fixed;
+  top: 0;
+  width:100%;
+  background-color: #000000;
+
+}
+#header-img{
+  
+  float: left;
+}
+
+.nav-link{
+  float: left;
+  text-align: center;
+  font-size: 20px;
+  display: flex;
+  padding: 23px;
+  overflow: hidden;
+  color: rgb(135,206,235);
+  text-decoration: none;
+ 
+  
+}
+
+#head-style{
+  font-family: 'Trocchi';
+  font-size: 30px;
+
+}
+
+#pitch{
+  text-align: center;
+  justify-content: left;
+  display:block;
+  font-size: 18px;
+  padding-bottom: 30px;
+  font-family: 'Eczar';
+}
+
+
+
+#whole{
+  background-color: rgb(135,206,235);
+}
+
+
+
+
+
+
+
+
+
+
+#video{
+  display: block;
+  text-align: center;
+  background-color: silver;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
+
+
+#Mock-up{
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Trocchi';
+  
+}
+
+
+
+.mock-text{
+  justify-content: center;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Eczar';
+}
+
+* {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+  text-align: center;
+  background-color: #000000;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.row{
+  background-color: rgb(135,206,235);
+}
+
+.column img {
+  margin-top: 12px;
+  background-color: rgb(135,206,235);
+}
+
+
+#Deliverables{
+text-align: center;
+display: block;
+justify-content: left;
+background-color: rgb(135,206,235);
+color: #000000;
+padding-top: 1050px;
+
+
+
+}
+
+
+#size{
+
+  font-family: 'Trocchi';
+  font-size: 30px;
+}
+
+#Del{
+  display:block ;
+  justify-content:center;
+  text-align:left;
+  
+}
+.font{
+  font-size:18px;
+  font-family: 'Eczar';
+}
+
+#dev{
+  font-style:italic;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Eczar';
+}
+
+
+input[type=email]{
+  width:45%;
+  height: 33px;
+  padding: 30px, 30px;
+  border:1px solid;
+  border-radius: 3px;
+  margin: 8px 0;
+  background-color: silver;
+  color:rgb(135,206,235);
+  
+
+}
+
+input[type=submit]{
+  width: 15%;
+  height: 28px;
+  padding: 40px, 30px;
+  margin: 8px 0;
+  background-color:#000000 ;
+  color: rgb(135,206,235);
+  border-radius: 4px;
+  font-family: 'Eczar';
+}
+
+input[type=submit]:hover{
+  background-color: orange;
+  color: #000000;
+  font-family: 'Eczar';
+
+}
+
+#werk{
+  font-family: 'Eczar';
+  font-size: 30px;
+}
+
+#logos{
+  text-align: center;
+  background-color: #000000;
+ color: rgb(135,206,235);
+}
+#cont{
+  font-family: 'Trocchi';
+  
+  font-size: 30px;
+  
+}
+
+#cont-text{
+  margin-bottom: 260px;
+  padding: 50px;
+  font-family: 'Eczar';
+}
+
+#form{
+
+text-align: center;
+display: block;
+}
+
+
+
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 35px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 200px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitstyleter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #ea4c89;
+  color: white;
+}
+
+footer{
+  display: block;
+  text-align: center;
+  font-size: 13px;
+  font-style: italic;
+  font-family: 'Eczar';
+ 
+  
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  #column{
+    width: 80%;
+    padding: 0;
+  }
+  #column {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:320px) {
+  /* For mobile phones: */
+ #whole #videos {
+    width: 100%;
+  }
+}

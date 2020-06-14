@@ -1,0 +1,72 @@
+<style>
+
+
+
+
+
+
+
+ #img-div {background-color:rgba(255, 255, 255, 1);
+   
+   
+   
+}
+
+#img-caption{
+  text-align:center;
+  font-size:18px;
+  
+  font-family: fantasy;
+  color: teal;
+  
+}
+
+#header{
+background-color: silver;
+  text-align:center;
+  font-size:60px;
+}
+#subheader{
+background-color: silver;
+  text-align:center;
+  position:relative;
+  bottom:60px;
+  
+ 
+}
+
+
+#main{
+  margin:30px 20px;
+  background-color: rgba(45, 45, 45, 0.19);
+  font-family:helvetica;
+}
+  
+
+
+
+#tribute-info{
+  margin:auto;
+  text-align:center;
+  font-size:25px;
+  font-family: Courier New, monospace;
+}
+#everything {
+font-size: 16px;
+position: relative;  
+  top: 10px;
+  text-align:left;
+  padding:100px;
+}
+
+
+#take{
+  text-align:justify;
+  padding: 80px;
+  font-size:18px;
+
+}
+#class{text-align: center;
+font-size:20px;
+}
+</style>

@@ -1,0 +1,112 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!-- 
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+<!DOCTYPE html>
+<html>
+<link href='https://fonts.googleapis.com/css?family=Cairo' rel='stylesheet'>
+
+<head>
+    <title>G&G Grad-school</title>
+    <link href='https://fonts.googleapis.com/css?family=Michroma' rel='stylesheet'>
+    <link href="C:\Users\PHILIP OKIOKIO\Desktop\FreeCodeCamp\css\style.css" rel="stylesheet" type="text/css">
+</head>
+
+<div>
+    <h1 id="title"><b>G & G Survey Form</b></h1>
+    <p id="description">
+        <bold>This is a form to provide information
+            of geosciences student in Nigeria.<br>
+            Denoting their interest in Grad-School.
+            <br> Thank you for participating.</bold>
+    </p>
+</div>
+
+<body>
+    <div id="container">
+        <form id="survey-form">
+            <label id="name-label">
+                <h3>Name</h3>
+                <input type="text" required placeholder="name" id="name">
+                <h3>E-mail</h3>
+            </label>
+            <label id="email-label"><input type="email" required placeholder="email" id="email">
+                <h3>Phone-Number</h3>
+                <input id="Phone-Number" type="tel" placeholder=" 0806-923-1938" required >
+            </label>
+            <label id="number-label">
+                <h3>Age(optional)</h3>
+                <input id="number" type="number" min="17" max="50" required placeholder="Age">
+            </label>
+            <h3>Level of Basic Tertiary Education</h3>
+            <select>
+
+                <option value="Select an Option" selected>Select an option </option>
+                <option value="Undergraduate">Undergraduate</option>
+                <option value="Graduate">Graduate</option>
+            </select>
+            <h3>Course Studied</h3>
+            <select id = "dropdown">
+                <option value="Select an option" selected>Select an option</option>
+                <option value="Geology">Geology</option>
+                <option value="Geophysics">Geophysics</option>
+                <option value="RSG & GIS">RSG & GIS</option>
+            </select>
+            <h3>Continent of preffered Grad-school</h3>
+            <label for="North-America">
+                <input type="radio" name="North-America-Europe-Asia" checked value= "1">North-America
+            </label>
+            <label for="Europe">
+                <input type="radio" name="North-America-Europe-Asia" value="2">Europe
+            </label>
+            <label for="Asia">
+                <input type="radio" name="North-America-Europe-Asia" value= "3">Asia
+            </label>
+            <h3>Area of Interest in Geosciences </h3>
+            <label for="Petroleum Geoscience">
+                <input id="Petroleum Geoscience" type="checkbox" name="Area of Interest" checked value="1">Petroleum Geoscience
+            </label><br>
+            <label>
+                <input id="Environmental Geoscience" type="checkbox" name="Area of Interest" value="2">Environmental Geoscience
+            </label><br>
+            <label>
+                <input id="Hydro-geoscience" type="checkbox" name="Area of Interest" value="3">Hydro-geoscience
+            </label><br>
+            <label>
+                <input id="Engineering Geoscience" type="checkbox" name="Area of Interest" value="4">Engineering Geoscience
+            </label><br>
+            <label>
+                <input id="Mining Geoscience" type="checkbox" name="Area of Interest" value="5">Mining Geoscience
+            </label><br>
+            <label>
+                <input id="Energy Geoscience" type="checkbox" name="Area of Interest"value="6">Energy Geoscience
+            </label><br>
+            <label>
+                <input id="Marine Geoscience" type="checkbox" name="Area of Interest" value="7">Marine Geoscience
+            </label><br>
+            <label>
+                <input id="GIS & Agriculture" type="checkbox" name="Area of Interest" value="8">GIS & Agriculture
+            </label><br>
+            <label>
+                <input id="Geocomputing" type="checkbox" name="Area of Interest" value="9"> Geocomputing
+            </label>
+            <h3>Any Additional information or Suggestions?</h3>
+           <textarea id="text-area" type="text2" rows="3" cols="22" placeholder="Fill your additional Information here..."></textarea>
+            <br><br>
+
+            <input type="submit" id="submit" value="Submit">
+        </form>
+    </div>
+</body>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<footer> &#169; The Flying Dutch Science company. <i class="fa fa-github" style="font-size:36px"></i> </style>
+</footer>
+
+</html>
