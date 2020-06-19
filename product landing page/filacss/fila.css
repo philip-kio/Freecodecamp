@@ -1,6 +1,9 @@
 #header{
+  padding-top: 40px;
   text-align: center;
-  background-color:rgb(135,206,235) ;
+  background-color:#3C8CAF;
+  color:#061922;
+  font-family: 'Eczar';
 }
 
 #nav-bar{
@@ -8,8 +11,11 @@
   top: 0;
   width:100%;
   background-color: #000000;
+  overflow: auto;
 
 }
+
+
 #header-img{
   
   float: left;
@@ -20,23 +26,36 @@
   text-align: center;
   font-size: 20px;
   display: flex;
-  padding: 23px;
-  overflow: hidden;
+  padding-right: 35px;
+  overflow: auto;
   color: rgb(135,206,235);
   text-decoration: none;
  
   
 }
+/* Add a background color on mouse-over */
+#nav-bar a:hover {
+  background-color: rgb(135,206,235);
+  color:#000;
+}
+
+/* Style the current/active link */
+#nav-bar a.active {
+  background-color: #4CAF50;
+}
 
 #head-style{
   font-family: 'Trocchi';
   font-size: 30px;
+  padding-bottom: 20px;
 
 }
 
+
+
 #pitch{
   text-align: center;
-  justify-content: left;
+  justify-content: center;
   display:block;
   font-size: 18px;
   padding-bottom: 30px;
@@ -45,15 +64,14 @@
 
 
 
-#whole{
-  background-color: rgb(135,206,235);
+
+
+
+
+
+*{
+  margin:0;
 }
-
-
-
-
-
-
 
 
 
@@ -61,19 +79,27 @@
 #video{
   display: block;
   text-align: center;
-  background-color: silver;
-  padding-top: 30px;
+  background-color:#69AECC;
+  padding-top: 60px;
   padding-bottom: 30px;
+
+
 }
 
-
-
+iframe{
+  width: 55%;
+  height: auto;
+  max-width: 75%;
+  border-radius: 5px;
+}
 
 #Mock-up{
   text-align: center;
   font-size: 30px;
   font-family: 'Trocchi';
-  
+  padding-top: 45px;
+  background-color: #3C8CAF;
+  color:#081217;
 }
 
 
@@ -93,7 +119,7 @@
   width: 50%;
   padding: 5px;
   text-align: center;
-  background-color: #000000;
+  background-color: #081217;
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -104,6 +130,9 @@
 .column img {
   margin-top: 12px;
   background-color: rgb(135,206,235);
+  width: 50%;
+  height: auto;
+  max-width: 70%;
 }
 
 
@@ -111,60 +140,79 @@
 text-align: center;
 display: block;
 justify-content: left;
-background-color: rgb(135,206,235);
-color: #000000;
-padding-top: 1050px;
+font-family: 'Eczar';
+
+
+
 
 
 
 }
 
+#del{
+  padding-top: 600px;
+  background-color:#3C8CAF;
+color: #000000;
 
+}
 #size{
 
   font-family: 'Trocchi';
   font-size: 30px;
 }
 
-#Del{
-  display:block ;
-  justify-content:center;
-  text-align:left;
+@media screen and (max-width:600px){
+  body{
+      width: 100%;
+  }
+}
+
   
 }
 .font{
-  font-size:18px;
+  font-size:20px;
   font-family: 'Eczar';
 }
 
 #dev{
+  padding-top:20px ;
   font-style:italic;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   font-family: 'Eczar';
+  text-align: center;
+  justify-content: left;
+  text-decoration: none;
+  list-style: none;
+  
 }
 
-
+#eform{
+  
+  background-color: #3C8CAF;
+}
 input[type=email]{
   width:45%;
+  max-width: 60%;
   height: 33px;
   padding: 30px, 30px;
-  border:1px solid;
+  border:1px ;
   border-radius: 3px;
   margin: 8px 0;
   background-color: silver;
-  color:rgb(135,206,235);
+  color:#081217;
   
 
 }
 
 input[type=submit]{
-  width: 15%;
+  width: 35%;
+  max-width: 45%;
   height: 28px;
   padding: 40px, 30px;
   margin: 8px 0;
-  background-color:#000000 ;
-  color: rgb(135,206,235);
+  background-color:#081217 ;
+  color: #69AECC;
   border-radius: 4px;
   font-family: 'Eczar';
 }
@@ -178,13 +226,15 @@ input[type=submit]:hover{
 
 #werk{
   font-family: 'Eczar';
-  font-size: 30px;
+  font-size: 20px;
 }
 
 #logos{
   text-align: center;
-  background-color: #000000;
- color: rgb(135,206,235);
+  background-color: #061922;
+ color:#3C8CAF;
+ 
+ padding-top: 20px;
 }
 #cont{
   font-family: 'Trocchi';
@@ -248,23 +298,18 @@ footer{
   font-size: 13px;
   font-style: italic;
   font-family: 'Eczar';
+  background-color: #061922;
+  color:#3C8CAF;
+ 
  
   
 }
+body{
+  color:#3C8CAF;
+}
+@media screen and (max-width:500px){
+  body{
+      width: 100%;
+  }
+}
 
-@media only screen and (max-width:800px) {
-  /* For tablets: */
-  #column{
-    width: 80%;
-    padding: 0;
-  }
-  #column {
-    width: 100%;
-  }
-}
-@media only screen and (max-width:320px) {
-  /* For mobile phones: */
- #whole #videos {
-    width: 100%;
-  }
-}
